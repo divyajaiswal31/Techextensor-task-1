@@ -13,6 +13,9 @@ matrixContainer.style.gridTemplateColumns = `repeat(${columns}, auto)`;
     // Creating the  matrix
     if(rows=='' || columns=='')
         alert('enter the number of rows and coumns')
+        else if(rows<=0 ||columns<=0){
+        alert("Please enter valid number of rows and columns");
+    }
     else{
     for (let i=0; i<rows; i++) {
         for (let j=0; j<columns; j++) {

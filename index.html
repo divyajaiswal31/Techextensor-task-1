@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Task-1 Matrix Generator</h2>
+        <div>
+            <label>Rows </label>
+            <input type="number" id="rows"  placeholder="Enter no. of rows" >
+            <div></div>
+            <label>Columns </label>
+            <input type="number" id="columns"   placeholder="Enter no. of columns" >
+            <div></div>
+            <button onclick="generateMatrix() " id="createB">Generate Matrix</button>
+        </div>
+        
+        <div id="matrixContainer" class="matrix-input"></div>
+        <button onclick="findMaxElement()">Find Neighbours of Max</button>
+
+    <div></div>
+    <button id="startB" onclick="reStart()">Start Again!</button>
+        
+        <p id="result"></p>
+    </div>
+ 
+   <script src="script.js"></script>
+</body>
+</html>

@@ -65,5 +65,5 @@ function reStart(){
     document.getElementById('rows').value = "";
     document.getElementById('columns').value = "";
     document.getElementById('matrixContainer').innerHTML='';
-    document.getElementById('resut').innerHTML='';
+    document.getElementById('result').innerHTML='';
 }

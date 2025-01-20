@@ -4,8 +4,11 @@ Matrix generator
 # Assignment-1 Matrix Generator 
 
 Take 2 Input Box
+
 1.Capture Raw
+
 2.Capture Columns 
+
 
 On based on Entered Raw and column, generate Matrix (With Input Feilds)
 Allow User to enter only numbers in Matrix 

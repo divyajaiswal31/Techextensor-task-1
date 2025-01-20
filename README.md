@@ -22,6 +22,8 @@ For Below Matrix answer will be
 Left : 2 
 Right : 3
 
+Demo - https://divyajaiswal31.github.io/Techextensor-task-1/ 
+
 
 
 
